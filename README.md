@@ -1,4 +1,4 @@
-==== nightdevil
+# nightdevil
 A fast secure tcp tunnel &amp; sock5 ,smaller than shadowsocks or GFW.Press, but still powerful
 
 
@@ -9,9 +9,9 @@ A fast secure tcp tunnel &amp; sock5 ,smaller than shadowsocks or GFW.Press, but
         
    AES-256-CFB header:      
 	+-----+----+-------+--------+--------+--------------+-------------+           
-	|&nbspIV1&nbsp|SIZE|&nbspNSIZE&nbsp|&nbsp&nbspHASH&nbsp&nbsp|&nbsp&nbspIV2&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbspDATA&nbsp&nbsp&nbsp&nbsp&nbsp|&nbspNOISE&nbspBYTES&nbsp|     
+	|`IV1`|SIZE|`NSIZE`|``HASH``|``IV2```|`````DATA`````|`NOISE`BYTES`|     
 	+-----+----+-------+--------+--------+--------------+-------------+             
-	|&nbsp16&nbsp&nbsp|&nbsp&nbsp8&nbsp|&nbsp&nbsp&nbsp8&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp32&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp16&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp0+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|            
+	|`16``|``8`|```8```|```32```|```16```|``````1+``````|`````0+``````|            
 	+-----+----+-------+--------+--------+--------------+-------------+          
 
 ---- Writen by threading + select         
