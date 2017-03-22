@@ -5,14 +5,6 @@ A fast secure tcp tunnel &amp; sock5 ,smaller than shadowsocks or GFW.Press, but
 # Copyright (c) 2016-2017 Jason Lyu
 
 # secure TCP tunnel with Sock5     
- 
-        
-   AES-256-CFB header:      
-	+-----+----+-------+--------+--------+--------------+-------------+           
-	|`IV1`|SIZE|`NSIZE`|``HASH``|``IV2```|`````DATA`````|`NOISE`BYTES`|     
-	+-----+----+-------+--------+--------+--------------+-------------+             
-	|`16``|``8`|```8```|```32```|```16```|``````1+``````|`````0+``````|            
-	+-----+----+-------+--------+--------+--------------+-------------+          
 
 ---- Writen by threading + select         
 
@@ -35,7 +27,7 @@ enough RAM to run this scripts,because it depends on threading
 The Crypto mode of chacha20 and salsa20 are pure python scripts,               
 so it may not a best choise to encrypt data.               
 
-#HELP:               
+---- HELPS:               
 
 Usage: python [server.py or local.py] [config file]...               
  A fast tunnel proxy that helps you bypass firewalls.               
