@@ -2,11 +2,11 @@
 A fast secure tcp tunnel &amp; sock5 ,smaller than shadowsocks or GFW.Press, but still powerful
 
 
-# Copyright (c) 2016-2017 Jason Lyu
+Copyright (c) 2016-2017 Jason Lyu
 
 # secure TCP tunnel with Sock5     
 
----- Writen by threading + select         
+# Writen by threading + select         
 
 # There are two mode:               
 (1)sock5 proxy with crypto <'sock5'=True>               
@@ -27,7 +27,7 @@ enough RAM to run this scripts,because it depends on threading
 The Crypto mode of chacha20 and salsa20 are pure python scripts,               
 so it may not a best choise to encrypt data.               
 
----- HELPS:               
+# HELPS:               
 
 Usage: python [server.py or local.py] [config file]...               
  A fast tunnel proxy that helps you bypass firewalls.               
