@@ -1,22 +1,22 @@
-# nightdevil
+==== nightdevil
 A fast secure tcp tunnel &amp; sock5 ,smaller than shadowsocks or GFW.Press, but still powerful
 
 
-#Copyright (c) 2016-2017 Jason Lyu
+# Copyright (c) 2016-2017 Jason Lyu
 
- secure TCP tunnel with Sock5     
+# secure TCP tunnel with Sock5     
  
         
    AES-256-CFB header:      
 	+-----+----+-------+--------+--------+--------------+-------------+           
-	| IV1 |SIZE| NSIZE |  HASH  |  IV2   |     DATA     | NOISE BYTES |             
+	|&nbspIV1&nbsp|SIZE|&nbspNSIZE&nbsp|&nbsp&nbspHASH&nbsp&nbsp|&nbsp&nbspIV2&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbspDATA&nbsp&nbsp&nbsp&nbsp&nbsp|&nbspNOISE&nbspBYTES&nbsp|     
 	+-----+----+-------+--------+--------+--------------+-------------+             
-	| 16  |  8 |   8   |   32   |   16   |      1+      |     0+      |            
+	|&nbsp16&nbsp&nbsp|&nbsp&nbsp8&nbsp|&nbsp&nbsp&nbsp8&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp32&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp16&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp1+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp0+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|            
 	+-----+----+-------+--------+--------+--------------+-------------+          
 
-#Writen by threading + select         
+---- Writen by threading + select         
 
-#There are two mode:               
+# There are two mode:               
 (1)sock5 proxy with crypto <'sock5'=True>               
 (2)portforward with	crypto <'sock5'=False>               
 
