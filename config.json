@@ -1,0 +1,10 @@
+{
+"local_host":"127.0.0.1",
+"local_port":1082,
+"target_host":"127.0.0.1",
+"target_port":5555,
+"password":"SuperLongSecureTestPassward",
+"method":"aes-256-cfb",
+"md5_hash_auth":True,
+"sock5":True
+}
