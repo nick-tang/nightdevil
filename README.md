@@ -4,7 +4,8 @@ A fast secure tcp tunnel &amp; sock5 ,smaller than shadowsocks or GFW.Press, but
 
 Copyright (c) 2016-2017 Jason Lyu
 
-# Dont't use this ! See https://github.com/Jason-Lyu/daredevil         
+# Dont't use this !       
+See https://github.com/Jason-Lyu/daredevil         
 
 # secure TCP tunnel with Sock5     
 
